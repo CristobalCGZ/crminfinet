@@ -1,0 +1,37 @@
+.infinite-spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  font-size: 40px;
+  color: #FF6B00;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.infinite-symbol {
+  font-size: 72px;
+  animation: infinitySpin 2s linear infinite;
+}
+
+@keyframes infinitySpin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

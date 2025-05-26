@@ -1,0 +1,19 @@
+/* src/components/VentaModal.css */
+
+.venta-modal-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.venta-modal-form .ant-input {
+  border-radius: 8px;
+}
+
+.venta-modal-form .section-title {
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.venta-modal-upload {
+  margin-top: 12px;
+}
